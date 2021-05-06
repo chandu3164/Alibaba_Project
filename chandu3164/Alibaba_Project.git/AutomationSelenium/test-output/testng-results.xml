@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[checkin Box is selected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-06T12:49:43 IST" name="Automation" finished-at="2021-05-06T12:52:10 IST" duration-ms="146824">
+    <groups>
+    </groups>
+    <test started-at="2021-05-06T12:49:43 IST" name="Test" finished-at="2021-05-06T12:52:10 IST" duration-ms="146824">
+      <class name="com.alibaba.TC_Alibaba">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.alibaba.TC_Alibaba@550ee7e5]" started-at="2021-05-06T12:49:44 IST" name="setUp" finished-at="2021-05-06T12:50:48 IST" duration-ms="64361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.alibaba.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SignIn(java.lang.String, java.lang.String)[pri:1, instance:com.alibaba.TC_Alibaba@550ee7e5]" started-at="2021-05-06T12:50:49 IST" name="SignIn" data-provider="getData" finished-at="2021-05-06T12:51:19 IST" duration-ms="29845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[j.333kk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chandu242785]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[checkin Box is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SearchItem(java.lang.String)[pri:2, instance:com.alibaba.TC_Alibaba@550ee7e5]" started-at="2021-05-06T12:51:19 IST" name="SearchItem" data-provider="getValue" finished-at="2021-05-06T12:51:58 IST" depends-on-methods="com.alibaba.TC_Alibaba.SignIn" duration-ms="38521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[watches]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchItem -->
+        <test-method signature="SignOut()[pri:3, instance:com.alibaba.TC_Alibaba@550ee7e5]" started-at="2021-05-06T12:51:58 IST" name="SignOut" finished-at="2021-05-06T12:52:06 IST" depends-on-methods="com.alibaba.TC_Alibaba.SearchItem" duration-ms="8162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alibaba.TC_Alibaba@550ee7e5]" started-at="2021-05-06T12:52:06 IST" name="tearDown" finished-at="2021-05-06T12:52:10 IST" duration-ms="4187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alibaba.TC_Alibaba -->
+    </test> <!-- Test -->
+  </suite> <!-- Automation -->
+</testng-results>
